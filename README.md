@@ -11,7 +11,7 @@ Pandas & Python
 
 ## Acknowledgements
 - This project was inspired by Datacamp
-- This project was based on data manipulation (https://www.example.com).
+- This project was based on data manipulation.
 - Many thanks to I4G & Data camp
 
 
