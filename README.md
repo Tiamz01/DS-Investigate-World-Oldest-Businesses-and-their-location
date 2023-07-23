@@ -1,27 +1,39 @@
-<h1 align="center" id="title">DS-Investigate-World-Oldest-Businesses-and-their-location</h1>
-> The project investigates the world's oldest businesses the world
-<p id="description">Sentimental analysis on free finance apps on google play to discover the First 10 user feedback.</p>
 
+# Oldest Businesses Analysis
 
-<p> steps taken in analyzing the Data include the following </p>
+## Data
 
-<ul>
-    <h5>
-      <li>Import data and data cleaning</li>
-      <li>Converting concerning column to interger</li>
-      <li> Reading the review file</li>
-      <li> Join the data frame based on the app column</li>
-      <li>finding the average Sentimental score </li>
-      <li> top_10_user_feedback by sorting in descending order </li>
-    </h5>
-</ul>
+The core dataset contains the name, founding year, industry category code, and country code for over 200 of the world's oldest businesses. Additional data provide lookup tables for country names, continent mappings, and business category descriptions.
 
-<h2>Project Screenshots:</h2>
+## Analysis
 
-<img src="https://drive.google.com/file/d/1jl5A8UK_wqbySa4qA_Gi81Scd7Z9EZ2m/view?usp=share_link" alt="project-screenshot" width="200" height="200/">
+The key types of analysis conducted include:
 
-<h2>💖Like my work?</h2>
+- Identifying the oldest business globally and in each continent 
 
+- Analyzing representation of different business categories like banking, agriculture, and restaurants
 
+- Calculating total years in operation for different industries
 
+- Exploring which countries have unknown oldest businesses
+
+- Enriching the data by adding newly researched oldest businesses dataset
+
+- Determining the oldest business in each category filtered by continent
+
+## Tools
+
+The analysis utilizes Python and the following libraries:
+
+- Pandas for data manipulation and visualization
+
+Various transformations are applied including sorting, filtering, aggregation, merging, concatenating, and more to derive insights.
+
+## Results
+
+Key findings include the dominance of banking/finance for the oldest firms, the concentration in Europe, and longevity insights for categories like breweries and restaurants.
+
+## Next Steps
+
+Potential extensions could involve spatial analysis of the data, developing predictive models for business longevity, or deeper investigations into the history behind some of the oldest establishments.
 
